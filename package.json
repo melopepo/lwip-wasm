@@ -1,0 +1,13 @@
+{
+  "name": "lwip-wasm",
+  "version": "0.1.0",
+  "description": "lwIP networking stack in WebAssembly",
+  "main": "dist/lwip-wasm.mjs",
+  "types": "api.d.ts",
+  "scripts": {
+    "build": "make",
+    "test": "node test/test.mjs"
+  },
+  "author": "",
+  "license": "MIT"
+}
