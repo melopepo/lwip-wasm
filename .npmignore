@@ -5,6 +5,7 @@
 *.tgz
 *.tar.gz
 Makefile
+.github
 .gitmodules
 .prettierrc
 .clang-format
