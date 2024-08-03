@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/melopepo/lwip-wasm/actions/workflows/test.yml/badge.svg)](https://github.com/melopepo/lwip-wasm/actions/workflows/test.yml)
+
 # lwIP networking stack in WebAssembly
 
 This is a port of the [lwIP](https://savannah.nongnu.org/projects/lwip/) networking stack to WebAssembly, for use inside browsers.
