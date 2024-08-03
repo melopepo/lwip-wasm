@@ -15,7 +15,7 @@ EMCCFLAGS = -sEXPORTED_RUNTIME_METHODS=cwrap,addFunction \
 
 .PHONY: all
 all:
-	node scripts/generate_binding.js
+	`which node` scripts/generate_binding.js
 	mkdir -p dist
 	emcc $(COREFILES) $(CORE4FILES) $(NETIFFILES) $(SRCS) \
 		-I $(LWIPINCLUDEDIR) -I src/include \
